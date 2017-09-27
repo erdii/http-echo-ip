@@ -1,0 +1,30 @@
+{
+  "name": "echo-ip",
+  "version": "1.0.0",
+  "description": "echoes the request ip address",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "erdii",
+    "email": "erdiicodes@gmail.com",
+    "url": "https://blog.werise.de/"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js",
+  "start": "node server.js"
+}
